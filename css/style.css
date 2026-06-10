@@ -1,0 +1,140 @@
+/* Configurações gerais */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333333;
+}
+
+/* Cabeçalho */
+
+header {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Menu usando Flexbox */
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Área principal */
+
+main {
+    padding: 20px;
+}
+
+/* Seções */
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* Artigos */
+
+article {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Imagens */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Tabelas */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+/* Formulário */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+textarea {
+    padding: 8px;
+}
+
+/* Botões */
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+/* Rodapé */
+
+footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Dark Mode */
+
+.dark {
+    background-color: #121212;
+    color: white;
+}
+
+.dark section,
+.dark article {
+    background-color: #222222;
+}
+
+.dark table,
+.dark th,
+.dark td {
+    border: 1px solid white;
+}
+
+.dark footer {
+    background-color: #000000;
+}
+
+.dark header {
+    background-color: #000000;
+}
