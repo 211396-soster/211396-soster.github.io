@@ -1,4 +1,4 @@
-/* Configurações gerais */
+
 
 body {
     font-family: Arial, sans-serif;
@@ -7,7 +7,7 @@ body {
     color: #333333;
 }
 
-/* Cabeçalho */
+
 
 header {
     background-color: #004080;
@@ -16,7 +16,7 @@ header {
     padding: 20px;
 }
 
-/* Menu usando Flexbox */
+
 
 nav ul {
     display: flex;
@@ -36,13 +36,13 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Área principal */
+
 
 main {
     padding: 20px;
 }
 
-/* Seções */
+
 
 section {
     background-color: white;
@@ -51,7 +51,7 @@ section {
     border-radius: 10px;
 }
 
-/* Artigos */
+
 
 article {
     background-color: white;
@@ -59,14 +59,14 @@ article {
     border-radius: 10px;
 }
 
-/* Imagens */
+
 
 img {
     max-width: 100%;
     height: auto;
 }
 
-/* Tabelas */
+
 
 table {
     width: 100%;
@@ -84,7 +84,7 @@ td {
     padding: 10px;
 }
 
-/* Formulário */
+
 
 form {
     display: flex;
@@ -97,14 +97,14 @@ textarea {
     padding: 8px;
 }
 
-/* Botões */
+
 
 button {
     padding: 8px;
     cursor: pointer;
 }
 
-/* Rodapé */
+
 
 footer {
     background-color: #004080;
@@ -113,7 +113,7 @@ footer {
     padding: 15px;
 }
 
-/* Dark Mode */
+
 
 .dark {
     background-color: #121212;
